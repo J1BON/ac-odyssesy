@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .full-width {
@@ -28,7 +29,54 @@ h1 {
     text-align: justify;
 }
 
+a {
+    text-decoration: none;
+    background-image: linear-gradient(#FFA500, tomato);
+    padding: 10px 30px;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 .header-section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.body-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.main-box {
+    display: flex;
+}
+
+.box {
+    width: 40%;
+    padding: 2%;
+    margin: 5%;
+    box-shadow: 20px 20px 40px gray;
+}
+
+#Kassandra {
+    border-image: linear-gradient(purple, orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+#Alexios {
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+footer p {
+    text-align: center;
 }
